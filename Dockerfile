@@ -1,6 +1,6 @@
 FROM cm2network/steamcmd
 USER root
-RUN apt update && apt install git
+RUN apt update && apt install -y git
 
 USER steam
 

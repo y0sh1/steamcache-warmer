@@ -1,6 +1,6 @@
 FROM cm2network/steamcmd
 USER root
-RUN apt update && apt install -y git
+RUN apt update && apt install -y git vim
 
 USER steam
 
